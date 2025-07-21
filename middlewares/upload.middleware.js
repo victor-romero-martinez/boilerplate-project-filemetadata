@@ -1,6 +1,7 @@
 // @ts-check
 
 const multer = require('multer');
+require('dotenv').config();
 
 const UPLOADS_DIR = process.env.UPLOAD_DIR ??'./uploads';
 
